@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferencias - Trabajo 9 APUN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .conference-card {
+            transition: all 0.3s ease;
+        }
+        .conference-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-gradient-1 {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        .card-gradient-2 {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+        .card-gradient-3 {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+        .card-gradient-4 {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        }
+        .card-gradient-5 {
+            background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+        }
+        .card-gradient-6 {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-16 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">Conferencias APUN</h1>
+            <p class="text-xl opacity-90">Explora las presentaciones y aprendizajes compartidos</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Conference 1 -->
+            <a href="conferencia-1.html" class="conference-card block">
+                <div class="card-gradient-1 rounded-2xl shadow-lg p-8 h-full text-white">
+                    <div class="flex items-center justify-center w-16 h-16 bg-white bg-opacity-20 rounded-full mb-4">
+                        <span class="text-3xl font-bold">1</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">John Sneyder Tamayo Zapata</h2>
+                    <p class="text-white text-opacity-90 mb-4">ID: 1020482385</p>
+                    <div class="flex items-center text-sm">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        <span>Ver presentación</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Conference 2 -->
+            <a href="conferencia-2.html" class="conference-card block">
+                <div class="card-gradient-2 rounded-2xl shadow-lg p-8 h-full text-white">
+                    <div class="flex items-center justify-center w-16 h-16 bg-white bg-opacity-20 rounded-full mb-4">
+                        <span class="text-3xl font-bold">2</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">Juan Esteban Carvajal</h2>
+                    <p class="text-white text-opacity-90 mb-4">ID: 1001363405</p>
+                    <div class="flex items-center text-sm">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        <span>Ver presentación</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Conference 3 -->
+            <a href="conferencia-3.html" class="conference-card block">
+                <div class="card-gradient-3 rounded-2xl shadow-lg p-8 h-full text-white">
+                    <div class="flex items-center justify-center w-16 h-16 bg-white bg-opacity-20 rounded-full mb-4">
+                        <span class="text-3xl font-bold">3</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">Maria Camila Quintero Garcia</h2>
+                    <p class="text-white text-opacity-90 mb-4">ID: 1007346597</p>
+                    <div class="flex items-center text-sm">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        <span>Ver presentación</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Conference 4 -->
+            <a href="conferencia-4.html" class="conference-card block">
+                <div class="card-gradient-4 rounded-2xl shadow-lg p-8 h-full text-white">
+                    <div class="flex items-center justify-center w-16 h-16 bg-white bg-opacity-20 rounded-full mb-4">
+                        <span class="text-3xl font-bold">4</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">Molina</h2>
+                    <p class="text-white text-opacity-90 mb-4">ID: 1000869418</p>
+                    <div class="flex items-center text-sm">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        <span>Ver presentación</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Conference 5 -->
+            <a href="conferencia-5.html" class="conference-card block">
+                <div class="card-gradient-5 rounded-2xl shadow-lg p-8 h-full text-white">
+                    <div class="flex items-center justify-center w-16 h-16 bg-white bg-opacity-20 rounded-full mb-4">
+                        <span class="text-3xl font-bold">5</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">Yonier</h2>
+                    <p class="text-white text-opacity-90 mb-4">ID: 1007165526</p>
+                    <div class="flex items-center text-sm">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        <span>Ver presentación</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Conference 6 - Habits -->
+            <a href="conferencia-6.html" class="conference-card block">
+                <div class="card-gradient-6 rounded-2xl shadow-lg p-8 h-full text-gray-800">
+                    <div class="flex items-center justify-center w-16 h-16 bg-white bg-opacity-50 rounded-full mb-4">
+                        <span class="text-3xl font-bold">6</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-3">Hábitos y Productividad</h2>
+                    <p class="text-gray-700 mb-4">Construyendo mejores hábitos</p>
+                    <div class="flex items-center text-sm">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                        <span>Ver contenido</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-16">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p class="text-gray-400">Trabajo 9 APUN - Universidad Nacional de Colombia</p>
+            <p class="text-gray-500 text-sm mt-2">© 2025 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
